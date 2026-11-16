@@ -75,8 +75,8 @@
 		
          L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
            attribution: 'Tiles © Esri — Esri, DeLorme, NAVTEQ',
-           maxZoom: 11,
-           minZoom: 5
+           maxZoom: 16,
+           minZoom: 3
          }).addTo(map);
 
 		L.canvasFlowmapLayer(data,{ //data is the variable name I used for defining the cook.js data
